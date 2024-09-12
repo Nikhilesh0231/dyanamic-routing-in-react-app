@@ -1,0 +1,39 @@
+.blog{
+  width:300px;
+  height: 330px;
+  margin:10px;
+  border: 1px solid grey;
+  padding: 10px;
+  background-color: rgb(107, 105, 105);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.blog:hover{
+  box-shadow: 2px 2px 9px 5px rgb(112, 83, 83);
+  cursor: pointer;border-bottom: 2px solid rgb(143, 25, 25);
+
+
+}
+.blog-container{
+display: flex;
+flex-wrap: wrap;
+gap: 55px;
+padding : 45px;
+background-color: rgb(54, 49, 49);
+width: 100%;
+height: 100%;
+}
+.blog h3{
+  color: rgb(99, 29, 29);
+}
+.blog p{
+  text-align: center;
+  color: burlywood;
+}
+.blog button{
+  background: none;
+  border: none;
+  color: rgb(21, 21, 52);
+}
